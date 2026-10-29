@@ -45,6 +45,8 @@ android.sdk = 34
 android.allow_backup = True
 # 使用私有存储
 android.private_storage = True
+# 自动接受 Android SDK 许可协议（CI/无交互环境必需，否则 Build-Tools 装不上）
+android.accept_sdk_license = True
 
 [buildozer]
 
